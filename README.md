@@ -1,8 +1,11 @@
-# React + Vite
+# A_Quiz React App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Available Scripts
 
-Currently, two official plugins are available:
+### In the project directory, you can run:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+`npm run dev`
+
+### Runs the app in the development mode.
+
+>>>>>>> ed6772d08cdc464c88bc1d657b01a845f2c07eb2
