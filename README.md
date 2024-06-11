@@ -1,4 +1,4 @@
-# A_Quiz React App
+# A Quiz React App
 
 ## Available Scripts
 
@@ -6,6 +6,4 @@
 
 `npm run dev`
 
-### Runs the app in the development mode.
-
->>>>>>> ed6772d08cdc464c88bc1d657b01a845f2c07eb2
+### Run the app in the development mode.
