@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+.temporary-header {
+  align-self: center;
+  font-size: 3rem;
+}
