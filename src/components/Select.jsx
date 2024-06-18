@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 
-export default function CustomSelect({ label, value, options, onChange }) {
+export default function Select({ label, value, options, onChange }) {
   return (
     <label>
       {label}
@@ -13,7 +13,7 @@ export default function CustomSelect({ label, value, options, onChange }) {
   );
 }
 
-CustomSelect.propTypes = {
+Select.propTypes = {
     label: PropTypes.string,
     value: PropTypes.string,
     options: PropTypes.array,
