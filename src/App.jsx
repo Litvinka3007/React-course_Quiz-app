@@ -1,9 +1,15 @@
-import './App.scss'
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import Homepage from './pages/Homepage/Homepage';
+import '../styles/global.scss';
 
 function App() {
   return (
-    <div className='temporary-header'>React with Vite and SCSS</div>
-  )
+    <Router>
+      <Routes>
+        <Route path='/' element={<Homepage/>}/>
+      </Routes>
+    </Router>
+  );  
 }
 
-export default App
+export default App;
