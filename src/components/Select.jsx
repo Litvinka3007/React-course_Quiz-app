@@ -14,8 +14,8 @@ export default function Select({ label, value, options, onChange }) {
 }
 
 Select.propTypes = {
-    label: PropTypes.string,
-    value: PropTypes.string,
-    options: PropTypes.array,
-    onChange: PropTypes.func
+    label: PropTypes.string.isRequired,
+    value: PropTypes.string.isRequired,
+    options: PropTypes.array.isRequired,
+    onChange: PropTypes.func.isRequired
 };

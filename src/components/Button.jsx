@@ -6,5 +6,5 @@ export default function Button({ className, children }) {
 
 Button.propTypes = {
   className: PropTypes.string,
-  children: PropTypes.node
+  children: PropTypes.node.isRequired
 };
